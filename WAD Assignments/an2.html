@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+@keyframes new1{
+        0%{background-color:red; }
+        20%{background-color:yellow; }
+        40%{background-color:pink; }
+        60%{background-color:green; }
+        80%{background-color:blue; }
+        100%{background-color:violet; }
+    }
+
+body{
+    background-color: rgb(192, 236, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 5%;
+
+}
+#form1{
+  font-family: 'Times New Roman', Times, serif;
+ 
+  
+  margin: 5%;
+  padding-left: 2%;
+}
+
+#table{
+    background-color: black;
+    color: aliceblue;
+    opacity: 60%;
+}
+.heading{
+    background-color: bisque;
+    animation-name: new1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+}
+.img:hover{
+    height:400px;
+    width: 800px;
+
+}
+.img{
+height: 200px;
+width: 300px;
+transition: width 2s,height 2s ;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1 class="heading">Assignent no 2</h1>
+    <p>Use any 5 CSS Properties</p>
+   <!-- Below we're using list tags -->
+    <ol>
+<li>background-color</li>
+<li>opacity</li>
+<li>font-family</li>
+<li>margin </li>
+<li>padding </li>
+
+<p>* Use Animation & Transition</p>
+    </ol>
+    <!-- Below we're using table tags -->
+    <table id="table" border="3">
+<caption>BE Academics</caption>
+        <tr>
+            <th>Year</th>
+            <th>Addmission Year</th>
+            <th>Completion Year</th>
+            <th>CGPA</th>
+
+        </tr>
+        <tr>
+            <td>1st</td>
+            <td>2018</td>
+            <td>2020</td>
+            <td>5.6</td>
+        </tr>
+        <tr>
+            <td>2nd</td>
+            <td>2020</td>
+            <td>2021</td>
+            <td>8.9</td>
+        </tr>
+        <tr>
+            <td>3rd</td>
+            <td>2021</td>
+            <td>2022</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>4th</td>
+            <td>2022</td>
+            <td>2023</td>
+            <td>-</td>
+        </tr>
+    </table>
+<br>
+<!-- below we're using form tags -->
+    <form id="form1">
+        <caption>Log-In Form</caption><br>
+        <input type="email" id="email" placeholder="Email"><br>
+        <input type="password" id="password"placeholder="password"><br>
+        <input type="submit" id="login-button" value="Login"><br>
+
+
+    </form>
+
+<br>
+<!-- Anchor Tag -->
+<a href="https://www.google.com/" target="_BLANK">Google Anchor tag</a>
+<br>
+<br>
+
+<img class="img"src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/WOPA160517_D056-resized.jpg?crop=864,0,1728,2304&wid=1200&hei=1600&scl=1.44" >
+
+
+</body>
+</html>
